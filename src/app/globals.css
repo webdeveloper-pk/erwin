@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: linear-gradient(
+    180deg,
+    #f7f8ff 78.12%,
+    rgba(246, 248, 255, 0) 115.42%
+  );
+  --foreground: #171717;
+  --font-montserrat: Montserrat, sans-serif;
+  --font-inter: Inter, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --font-montserrat: Montserrat, sans-serif;
+    --font-inter: Inter, sans-serif;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-montserrat);
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

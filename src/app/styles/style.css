@@ -1,0 +1,260 @@
+/* generic */
+
+.homepage-container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.custom-header-btn {
+  position: relative;
+  transition: all 1.5s;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  background: #071c5a;
+  color: #fff;
+  border: 1px solid #071c5a;
+}
+
+.custom-header-btn .custom-header-btn-inner {
+  position: relative;
+  z-index: 99;
+}
+
+.custom-header-btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  transition: all 0.6s;
+}
+
+.custom-header-btn:hover {
+  color: black;
+}
+
+.custom-header-btn:hover:after {
+  width: 100%;
+  background: #fff;
+  color: black;
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #bee4f9 0%, rgba(190, 228, 249, 0) 100%);
+}
+
+/* steps */
+
+.simple-step-bg {
+  box-shadow: 0px 0px 38.37px 0px #8b4ef526;
+}
+/* header */
+
+header {
+  width: 100%;
+  height: 120px;
+  z-index: 999;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  background: transparent;
+}
+
+.shrink {
+  height: 100px;
+  background: #fff;
+  z-index: 999;
+}
+
+.image-animation {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-animation:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.2);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+
+nav.shift ul li a {
+  position: relative;
+  z-index: 1;
+}
+
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: #071c5a;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 24px;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.active-profile-sidebar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transition: all 0.5s;
+}
+
+.not-active-profile-sidebar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  background: #fff;
+  transition: all 0.5s;
+}
+
+.profile-sidebar-inner {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* hero */
+
+.bg-clouds {
+  background-image: url("../../../public/hero-clouds.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+/* media queries */
+
+@media screen and (min-width: 1920px) {
+}
+
+@media screen and (max-width: 1919px) and (min-width: 1801px) {
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1701px) {
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1536px) {
+}
+
+@media screen and (max-width: 1535px) and (min-width: 1280px) {
+  header {
+    height: 100px;
+  }
+  .shrink {
+    height: 85px;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  header {
+    height: 100px;
+  }
+
+  .shrink {
+    height: 85px;
+  }
+
+  nav ul li a {
+    padding: 7px 12px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 900px) {
+  header {
+    height: 90px;
+  }
+
+  .shrink {
+    height: 80px;
+  }
+
+  nav.shift ul li a:after {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 899px) and (min-width: 768px) {
+  header {
+    height: 90px;
+  }
+
+  .shrink {
+    height: 80px;
+  }
+
+  nav.shift ul li a:after {
+    border-radius: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+  header {
+    height: 80px;
+  }
+
+  .shrink {
+    height: 70px;
+  }
+
+  nav.shift ul li a:after {
+    border-radius: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    height: 80px;
+  }
+
+  .shrink {
+    height: 70px;
+  }
+}
