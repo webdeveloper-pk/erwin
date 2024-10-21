@@ -55,7 +55,7 @@ const AiCreditGuy = () => {
                     data-aos-easing="ease-in-sine"
                   >
                     <td className="px-4 py-4 2xl:py-6">AI CREDIT GUY</td>
-                    <td className="px-4 py-4 2xl:py-6">$97.00 FOREVER</td>
+                    <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
                     <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
                     <td className="px-4 py-4 2xl:py-6">$29.95 MONTHLY</td>
                     <td className="px-4 py-4 2xl:py-6">R$29.95</td>
