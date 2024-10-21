@@ -14,7 +14,13 @@ const Faqs = () => {
       <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-center">
         Frequently Asked question
       </h1>
-      <div className="mt-[30px] md:mt-[50px]">
+      <div
+        className="mt-[30px] md:mt-[50px]"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-duration="1100"
+        data-aos-easing="ease-in-sine"
+      >
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>

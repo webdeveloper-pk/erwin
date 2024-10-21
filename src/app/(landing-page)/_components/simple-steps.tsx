@@ -44,7 +44,13 @@ const SimpleSteps = () => {
               </div>
               <div className="flex flex-col gap-[10px] xl:gap-[30px] pr-[20px]">
                 {/* first step */}
-                <div className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] simple-step-bg p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]">
+                <div
+                  className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] simple-step-bg p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]"
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div>
                     <Image
                       src={step1}
@@ -63,7 +69,13 @@ const SimpleSteps = () => {
                   </div>
                 </div>
                 {/* second step */}
-                <div className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]">
+                <div
+                  className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]"
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="900"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div>
                     <Image
                       src={step2}
@@ -83,7 +95,13 @@ const SimpleSteps = () => {
                   </div>
                 </div>
                 {/* third step */}
-                <div className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]">
+                <div
+                  className="bg-[#8B4EF503] rounded-[20px] 2xl:rounded-[24px] p-[20px] flex flex-col md:flex-row md:items-center gap-[10px] xl:gap-[30px]"
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="1100"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div>
                     <Image
                       src={step3}
@@ -106,7 +124,13 @@ const SimpleSteps = () => {
           </div>
           <div className="w-[100%] lg:w-[45%] relative">
             <div className="bg-clouds">
-              <div className="pr-[20px] md:pr-[50px] lg:pr-[50px] xl:pr-[90px] 2xl:pr-[120px]">
+              <div
+                className="pr-[20px] md:pr-[50px] lg:pr-[50px] xl:pr-[90px] 2xl:pr-[120px]"
+                data-aos="zoom-out"
+                data-aos-offset="100"
+                data-aos-duration="1300"
+                data-aos-easing="ease-in-sine"
+              >
                 <Image
                   src={stepsImage}
                   alt="hero"

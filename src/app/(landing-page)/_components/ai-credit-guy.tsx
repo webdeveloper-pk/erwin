@@ -22,7 +22,7 @@ const AiCreditGuy = () => {
             />
           </div>
           <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px] overflow-hidden">
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto overflow-y-hidden">
               <table className="min-w-full table-auto">
                 <thead>
                   <tr className="bg-[#D6F0FF] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]">
@@ -47,7 +47,13 @@ const AiCreditGuy = () => {
                   <tr>
                     <td className="py-1"></td>
                   </tr>
-                  <tr className="bg-[#C6D1FE] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]">
+                  <tr
+                    className="bg-[#C6D1FE] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]"
+                    data-aos="fade-up"
+                    data-aos-offset="100"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <td className="px-4 py-4 2xl:py-6">AI CREDIT GUY</td>
                     <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
                     <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
@@ -57,7 +63,13 @@ const AiCreditGuy = () => {
                   <tr>
                     <td className="py-1"></td>
                   </tr>
-                  <tr className="bg-[#FFFFFF] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]">
+                  <tr
+                    className="bg-[#FFFFFF] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]"
+                    data-aos="fade-up"
+                    data-aos-offset="100"
+                    data-aos-duration="1100"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <td className="px-4 py-4 2xl:py-6">
                       Traditional Credit Repair
                     </td>
@@ -73,6 +85,10 @@ const AiCreditGuy = () => {
               <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
                   className={`mt-[20px] lg:mt-[30px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="1300"
+                  data-aos-easing="ease-in-sine"
                 >
                   <span className="custom-header-btn-inner">GET STARTED</span>
                 </button>

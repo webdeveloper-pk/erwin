@@ -13,7 +13,13 @@ const Terms = () => {
         <div className="mx-auto homepage-container py-[40px] lg:py-[50px] 2xl:py-[60px] px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px] overflow-hidden">
           <div className="flex justify-center">
             <div>
-              <div className="pl-[30px]">
+              <div
+                className="pl-[30px]"
+                data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-duration="1100"
+                data-aos-easing="ease-in-sine"
+              >
                 <Image
                   src={bot}
                   alt="robot"

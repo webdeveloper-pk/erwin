@@ -18,18 +18,24 @@ const DiyPlatform = () => {
           src={leftObj2}
           alt="leftObj2"
           className="absolute left-[0px] bottom-[15%] sm:bottom-[15%] lg:left-[-20px] lg:bottom-[25%] 2xl:left-[-10px] 2xl:bottom-[20%] w-[40%] lg:w-[15%] 2xl:w-[12%]"
-          style={{ zIndex: 1 }}
         />
       </div>
       <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[120px] pt-[30px] lg:pt-[100px] 2xl:pt-[100px] pb-[100px] sm:pb-[120px] lg:pb-[100px] 2xl:pb-[120px] overflow-hidden">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[80px]">
           <div className="w-full lg:w-[50%] relative flex justify-center">
-            <Image
-              src={left}
-              alt="right"
-              className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
-              style={{ zIndex: 2 }}
-            />
+            <div
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-sine"
+            >
+              <Image
+                src={left}
+                alt="right"
+                className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
+                style={{ zIndex: 3 }}
+              />
+            </div>
             <Image
               src={bot}
               alt="bot"
@@ -60,12 +66,14 @@ const DiyPlatform = () => {
                 style={{ zIndex: 1 }}
               />
             </div>
-            <Image
-              src={rightObj3}
-              alt="rightObj3"
-              className="absolute left-[-20px] bottom-[-50px] sm:left-[-50px] sm:bottom-[-90px] lg:left-[-50px] lg:bottom-[-70px] 2xl:left-[-150px] 2xl:bottom-[-100px] w-[40%] lg:w-[40%] 2xl:w-[40%]"
-              style={{ zIndex: 1 }}
-            />
+            <div>
+              <Image
+                src={rightObj3}
+                alt="rightObj3"
+                className="absolute left-[-20px] bottom-[-50px] sm:left-[-50px] sm:bottom-[-90px] lg:left-[-50px] lg:bottom-[-70px] 2xl:left-[-150px] 2xl:bottom-[-100px] w-[40%] lg:w-[40%] 2xl:w-[40%]"
+                style={{ zIndex: -1 }}
+              />
+            </div>
             <div>
               <Image
                 src={rightObj4}
@@ -81,20 +89,43 @@ const DiyPlatform = () => {
               style={{ zIndex: 1 }}
             />
             <div>
-              <Image
-                src={meter1}
-                alt="meter1"
-                className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
-              />
-              <h1 className="mt-[20px] lg:mt-[30px] w-[100%] 2xl:w-[90%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-left">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-sine"
+              >
+                <Image
+                  src={meter1}
+                  alt="meter1"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+              </div>
+              <h1
+                className="mt-[20px] lg:mt-[30px] w-[100%] 2xl:w-[90%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-left"
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-duration="900"
+                data-aos-easing="ease-in-sine"
+              >
                 The world’s Totally Free DIY Credit repair platform
               </h1>
-              <p className="mt-[5px] font-medium text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]">
+              <p
+                className="mt-[5px] font-medium text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]"
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-duration="1100"
+                data-aos-easing="ease-in-sine"
+              >
                 Just Pay for crdit monitoring. We cover the rest.
               </p>
               <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
                   className={`mt-[10px] lg:mt-[20px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="1300"
+                  data-aos-easing="ease-in-sine"
                 >
                   <span className="custom-header-btn-inner">GET STARTED</span>
                 </button>

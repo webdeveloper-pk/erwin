@@ -27,7 +27,6 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-offset="100"
                 data-aos-duration="700"
-                data-aos-delay="100"
                 data-aos-easing="ease-in-sine"
               >
                 <Image

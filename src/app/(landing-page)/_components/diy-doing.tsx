@@ -51,7 +51,13 @@ const DiyDoing = () => {
               className="absolute right-[10px] top-[10px] lg:right-[0px] lg:top-[0px] 2xl:right-[00px] 2xl:top-[20px] w-[100px] h-[120px] md:w-[130px] md:h-[170px] lg:w-[130px] lg:h-[170px] 2xl:w-[200px] 2xl:h-[240px]"
             />
           </div>
-          <div className="w-full lg:w-[50%] lg:px-[10px] xl:px-[20px] 2xl:px-[70px]">
+          <div
+            className="w-full lg:w-[50%] lg:px-[10px] xl:px-[20px] 2xl:px-[70px]"
+            data-aos="zoom-in"
+            data-aos-offset="100"
+            data-aos-duration="1100"
+            data-aos-easing="ease-in-sine"
+          >
             <div className="lg:pt-[50px] 2xl:pt-[100px]">
               <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-left">
                 The world’s Totally Free Credit repair platform

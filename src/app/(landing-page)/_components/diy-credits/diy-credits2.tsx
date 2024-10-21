@@ -25,11 +25,18 @@ const DiyCredits2 = () => {
       <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[100px] 2xl:px-[200px] pt-[80px] lg:pt-[80px] 2xl:pt-[100px] pb-[70px] lg:pb-[130px] 2xl:pb-[250px] overflow-hidden">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[80px]">
           <div className="w-full lg:w-[50%] relative flex justify-center">
-            <Image
-              src={left}
-              alt="right"
-              className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
-            />
+            <div
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-duration="1100"
+              data-aos-easing="ease-in-sine"
+            >
+              <Image
+                src={left}
+                alt="right"
+                className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
+              />
+            </div>
             <Image
               src={bot}
               alt="bot"
@@ -61,7 +68,13 @@ const DiyCredits2 = () => {
                 style={{ zIndex: 1 }}
               />
             </div>
-            <div className="flex flex-col gap-[20px] 2xl:gap-[25px]">
+            <div
+              className="flex flex-col gap-[20px] 2xl:gap-[25px]"
+              data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-duration="900"
+              data-aos-easing="ease-in-sine"
+            >
               <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-left">
                 Why is this free?
               </h1>

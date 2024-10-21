@@ -26,7 +26,13 @@ const DiyCredits3 = () => (
           Mail it for you
         </p>
       </div>
-      <div className="w-full lg:w-[40%] flex justify-center">
+      <div
+        className="w-full lg:w-[40%] flex justify-center"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-duration="900"
+        data-aos-easing="ease-in-sine"
+      >
         <Image
           src={left1}
           alt="left1"
@@ -38,7 +44,13 @@ const DiyCredits3 = () => (
           Monitor your progress with a streamlined dashboard
         </p>
       </div>
-      <div className="w-full lg:w-[60%] flex justify-center">
+      <div
+        className="w-full lg:w-[60%] flex justify-center"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-duration="1100"
+        data-aos-easing="ease-in-sine"
+      >
         <Image
           src={right1}
           alt="right1"
@@ -65,7 +77,13 @@ const DiyCredits3 = () => (
           One click import and dispute for easy credit repair.
         </p>
       </div>
-      <div className="w-full lg:w-[60%] flex justify-center">
+      <div
+        className="w-full lg:w-[60%] flex justify-center"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-duration="1300"
+        data-aos-easing="ease-in-sine"
+      >
         <Image
           src={left2}
           alt="right1"
@@ -78,7 +96,13 @@ const DiyCredits3 = () => (
         </p>
       </div>
       <div className="w-full lg:w-[40%] flex justify-center items-center p-[20px] ">
-        <div className="w-[90%] md:w-[70%] lg:w-[100%] 2xl:w-[100%] relative">
+        <div
+          className="w-[90%] md:w-[70%] lg:w-[100%] 2xl:w-[100%] relative"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-sine"
+        >
           <div
             className="absolute -right-[20px] -bottom-[15px] md:-bottom-[15px] 2xl:-bottom-[15px] md:-right-[20px] 2xl:-right-[50px]"
             style={{ zIndex: 1 }}

@@ -46,7 +46,13 @@ const DiyCredits1 = () => {
         </div>
         <div className="pt-[100px] lg:pt-[80px] 2xl:pt-[150px] flex flex-col lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[80px]">
           <div className="w-full lg:w-[50%] relative">
-            <div className="flex flex-col gap-[20px] 2xl:gap-[25px]">
+            <div
+              className="flex flex-col gap-[20px] 2xl:gap-[25px]"
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-duration="900"
+              data-aos-easing="ease-in-sine"
+            >
               <p className="font-normal text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px] uppercase">
                 <span className="font-semibold mr-2">Easy to use:</span>
                 One Click import and dispute features simplify the process.
@@ -82,11 +88,18 @@ const DiyCredits1 = () => {
             </div>
           </div>
           <div className="w-full lg:w-[50%] relative flex justify-center">
-            <Image
-              src={right}
-              alt="right"
-              className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
-            />
+            <div
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-duration="1100"
+              data-aos-easing="ease-in-sine"
+            >
+              <Image
+                src={right}
+                alt="right"
+                className="w-[90%] sm:w-[70%] lg:w-[100%] 2xl:w-[100%]"
+              />
+            </div>
             <Image
               src={bot}
               alt="bot"
