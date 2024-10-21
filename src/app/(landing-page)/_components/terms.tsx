@@ -10,7 +10,7 @@ const Terms = () => {
         </p>
       </div>
       <div className="bg-gradient">
-        <div className="mx-auto homepage-container py-[40px] lg:py-[50px] 2xl:py-[60px] px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px]">
+        <div className="mx-auto homepage-container py-[40px] lg:py-[50px] 2xl:py-[60px] px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px] overflow-hidden">
           <div className="flex justify-center">
             <div>
               <div className="pl-[30px]">

@@ -7,7 +7,7 @@ import right2 from "@/public/diy-doing-right2.png";
 
 const DiyDoing = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <div>
         <Image
           src={right2}
@@ -15,7 +15,7 @@ const DiyDoing = () => {
           className="w-[20%] lg:w-[13%] 2xl:w-[12%] h-auto absolute right-[0%] bottom-[0%] sm:bottom-[-5%] lg:bottom-[0%] 2xl:bottom-[0%]"
         />
       </div>
-      <div className="flex flex-col items-center text-center px-[20px] md:px-[50px] lg:px-[50px] xl:px-[90px] 2xl:px-[120px]">
+      <div className="flex flex-col items-center text-center px-[20px] md:px-[50px] lg:px-[50px] xl:px-[90px] 2xl:px-[120px] overflow-hidden">
         <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-center">
           do it yourself or do it for your family
         </h1>
@@ -37,7 +37,7 @@ const DiyDoing = () => {
           className="w-[30%] lg:w-[65%] 2xl:w-[70%] absolute right-0 top-[27%] md:top-[22%] lg:top-[15%] 2xl:top-[15%]"
         />
       </div>
-      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[120px] pt-[40px] lg:pt-[60px] pb-[70px] lg:pb-[100px] 2xl:pb-[200px]">
+      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[120px] pt-[40px] lg:pt-[60px] pb-[70px] lg:pb-[100px] 2xl:pb-[200px] overflow-hidden">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[50px]">
           <div className="w-full lg:w-[50%] relative flex justify-center">
             <Image

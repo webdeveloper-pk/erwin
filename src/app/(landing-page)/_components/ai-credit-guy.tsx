@@ -5,7 +5,7 @@ const AiCreditGuy = () => {
   return (
     <div
       id="credits"
-      className="bg-gradient pt-[70px] lg:pt-[100px] 2xl:pt-[200px] pb-[50px] lg:pb-[70px] 2xl:pb-[100px]"
+      className="bg-gradient pt-[70px] lg:pt-[100px] 2xl:pt-[200px] pb-[50px] lg:pb-[70px] 2xl:pb-[100px] overflow-hidden"
     >
       <div className="relative">
         <div className="px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px]">
@@ -13,7 +13,7 @@ const AiCreditGuy = () => {
             AI CREDIT GUY VS TRADTIONAL CREDIT REPAIR
           </h1>
         </div>
-        <div className="pt-[80px] lg:pt-[50px] 2xl:pt-[60px] relative">
+        <div className="pt-[80px] lg:pt-[50px] 2xl:pt-[60px] relative ">
           <div>
             <Image
               src={bot}
@@ -21,7 +21,7 @@ const AiCreditGuy = () => {
               className="w-[40%] sm:w-[30%] md:w-[25%] lg:w-[25%] xl:w-[20%] absolute right-[10px] -top-[20px] sm:right-[0px] sm:-top-[20px] md:right-0 md:-top-[50px] lg:right-0 lg:-top-[100px] xl:right-0  xl:-top-[80px] 2xl:-top-[150px]"
             />
           </div>
-          <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px]">
+          <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px] overflow-hidden">
             <div className="overflow-x-auto">
               <table className="min-w-full table-auto">
                 <thead>

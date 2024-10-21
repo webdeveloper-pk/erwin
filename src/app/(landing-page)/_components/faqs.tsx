@@ -9,7 +9,7 @@ const Faqs = () => {
   return (
     <div
       id="faqs"
-      className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px] pb-[50px]"
+      className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px] pb-[50px] overflow-hidden"
     >
       <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-center">
         Frequently Asked question

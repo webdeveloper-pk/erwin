@@ -6,7 +6,7 @@ import right2 from "@/public/diy-credits-3-right2.png";
 import bot from "@/public/diy-credits-3-bot.png";
 
 const DiyCredits3 = () => (
-  <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px] pb-[100px] lg:pb-[120px] 2xl:pb-[180px]">
+  <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px] pb-[100px] lg:pb-[120px] 2xl:pb-[180px] overflow-hidden">
     {/* first row */}
     <div className="hidden w-full lg:flex flex-col lg:items-start lg:flex-row gap-[40px] 2xl:gap-[60px]">
       <div className="w-full lg:w-[40%] pl-[30px] 2xl:pl-[60px]">
