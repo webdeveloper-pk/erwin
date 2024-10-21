@@ -95,7 +95,12 @@ const Header = () => {
           <div className="hidden lg:flex lg:justify-center lg:items-center lg:gap-6">
             <nav className="shift whitespace-nowrap uppercase">
               <ul className="nav-list flex items-center justify-center gap-x-[0px] xl:gap-x-[5px] 2xl:gap-x-[15px]">
-                <li>
+                <li
+                  data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-duration="700"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="btn-test from-bottom">
                     <a
                       href="#working"
@@ -105,7 +110,12 @@ const Header = () => {
                     </a>
                   </div>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-duration="900"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="btn-test from-bottom">
                     <a
                       href="#faqs"
@@ -115,7 +125,12 @@ const Header = () => {
                     </a>
                   </div>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-duration="1100"
+                  data-aos-easing="ease-in-sine"
+                >
                   <a
                     href="#credits"
                     className="text-black hover:text-white text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
@@ -123,7 +138,12 @@ const Header = () => {
                     Build Credit
                   </a>
                 </li>
-                <li>
+                <li
+                  data-aos="fade-down"
+                  data-aos-offset="100"
+                  data-aos-duration="1300"
+                  data-aos-easing="ease-in-sine"
+                >
                   <div className="btn-test from-bottom">
                     <a
                       href="https://aicreditguy.com/signup.aspx/signup.aspx"
@@ -138,6 +158,10 @@ const Header = () => {
             <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
               <button
                 className={`whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                data-aos="fade-down"
+                data-aos-offset="100"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-sine"
               >
                 <span className="custom-header-btn-inner">GET STARTED</span>
               </button>
@@ -186,7 +210,12 @@ const Header = () => {
             <div className="flex flex-col gap-y-[30px]">
               <nav className="block lg:hidden shift uppercase whitespace-nowrap">
                 <ul className="flex flex-col gap-y-[30px] nav-list items-center justify-center lg:gap-x-[10px] xl:gap-x-[20px] 2xl:gap-x-[30px]">
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="100"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <div className="btn-test from-bottom">
                       <a
                         href="#working"
@@ -196,7 +225,12 @@ const Header = () => {
                       </a>
                     </div>
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="100"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <div className="btn-test from-bottom">
                       <a
                         href="#faqs"
@@ -206,7 +240,12 @@ const Header = () => {
                       </a>
                     </div>
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="100"
+                    data-aos-duration="1100"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <a
                       href="#credits"
                       className="text-black hover:text-white  text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
@@ -214,7 +253,12 @@ const Header = () => {
                       Build Credit
                     </a>
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="100"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease-in-sine"
+                  >
                     <div className="btn-test from-bottom">
                       <a
                         href="https://aicreditguy.com/signup.aspx/signup.aspx"
@@ -230,6 +274,10 @@ const Header = () => {
                 <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                   <button
                     className={`whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                    data-aos="fade-left"
+                    data-aos-offset="100"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-sine"
                   >
                     <span className="custom-header-btn-inner">GET STARTED</span>
                   </button>
