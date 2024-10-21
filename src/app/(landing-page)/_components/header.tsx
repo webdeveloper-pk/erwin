@@ -142,7 +142,7 @@ const Header = () => {
                 >
                   <div className="btn-test from-bottom">
                     <a
-                      href="/"
+                      href="https://aicreditguy.com/signup.aspx/signup.aspx"
                       className="text-black hover:text-white text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
                     >
                       Login
@@ -249,7 +249,7 @@ const Header = () => {
                   >
                     <div className="btn-test from-bottom">
                       <a
-                        href="/"
+                        href="https://aicreditguy.com/signup.aspx/signup.aspx"
                         className="text-black hover:text-white text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
                       >
                         Login

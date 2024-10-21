@@ -14,16 +14,16 @@ const DiyCredits2 = () => {
         <Image
           src={right2}
           alt="right2"
-          className="w-[20%] lg:w-[13%] 2xl:w-[12%] h-auto absolute right-[0%] top-[45%] sm:top-[35%] lg:top-[0%] 2xl:top-[5%]"
+          className="w-[20%] lg:w-[13%] 2xl:w-[12%] h-auto absolute right-[0%] top-[2%] sm:top-[0%] lg:top-[0%] 2xl:top-[5%]"
         />
       </div>
       <Image
         src={left1}
         alt="leftObj2"
-        className="absolute left-[0px] bottom-[55%] sm:bottom-[45%] lg:left-[-20px] lg:bottom-[23%] 2xl:left-[-10px] 2xl:bottom-[27%] w-[40%] lg:w-[15%] 2xl:w-[12%]"
+        className="absolute left-[0px] bottom-[14%] sm:bottom-[13%] lg:left-[-20px] lg:bottom-[23%] 2xl:left-[-10px] 2xl:bottom-[27%] w-[40%] lg:w-[15%] 2xl:w-[12%]"
       />
-      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[100px] 2xl:px-[200px] pt-[50px] lg:pt-[80px] 2xl:pt-[100px] pb-[70px] lg:pb-[100px] 2xl:pb-[250px]">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[70px]">
+      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[100px] 2xl:px-[200px] pt-[80px] lg:pt-[80px] 2xl:pt-[100px] pb-[70px] lg:pb-[130px] 2xl:pb-[250px] overflow-hidden">
+        <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[80px]">
           <div className="w-full lg:w-[50%] relative flex justify-center">
             <Image
               src={left}
@@ -41,7 +41,7 @@ const DiyCredits2 = () => {
               <Image
                 src={right1}
                 alt="right1"
-                className="absolute right-[25%] top-[-60px] lg:right-[37%] lg:top-[-70px] 2xl:right-[30%] 2xl:top-[-120px] w-[50px] h-[50px] md:w-[70px] md:h-[70px] lg:w-[70px] lg:h-[70px] 2xl:w-[90px] 2xl:h-[90px]"
+                className="absolute right-[35%] top-[-60px] lg:right-[37%] lg:top-[-70px] 2xl:right-[30%] 2xl:top-[-120px] w-[50px] h-[50px] md:w-[70px] md:h-[70px] lg:w-[70px] lg:h-[70px] 2xl:w-[90px] 2xl:h-[90px]"
                 style={{ zIndex: 1 }}
               />
             </div>

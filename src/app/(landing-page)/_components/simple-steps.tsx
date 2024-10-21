@@ -6,7 +6,10 @@ import step3 from "@/public/simple-step3.png";
 
 const SimpleSteps = () => {
   return (
-    <div className="bg-gradient pt-[50px] lg:pt-[70px] 2xl:pt-[90px] pb-[40px] lg:pb-[50px] 2xl:pb-[50px] mb-[50px] lg:mb-[70px] 2xl:mb-[90px]">
+    <div
+      id="working"
+      className="bg-gradient pt-[50px] lg:pt-[70px] 2xl:pt-[90px] pb-[40px] lg:pb-[50px] 2xl:pb-[50px] mb-[50px] lg:mb-[70px] 2xl:mb-[90px]"
+    >
       <div className="flex flex-col items-center text-center px-[20px] md:px-[50px] lg:px-[50px] xl:px-[90px] 2xl:px-[120px]">
         <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-center">
           3 SIMPLE STEPS TO BETTER CREDIT

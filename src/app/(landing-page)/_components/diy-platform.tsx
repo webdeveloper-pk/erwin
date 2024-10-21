@@ -17,12 +17,12 @@ const DiyPlatform = () => {
         <Image
           src={leftObj2}
           alt="leftObj2"
-          className="absolute left-[0px] bottom-[60%] sm:bottom-[50%] lg:left-[-20px] lg:bottom-[25%] 2xl:left-[-10px] 2xl:bottom-[20%] w-[40%] lg:w-[15%] 2xl:w-[12%]"
+          className="absolute left-[0px] bottom-[15%] sm:bottom-[15%] lg:left-[-20px] lg:bottom-[25%] 2xl:left-[-10px] 2xl:bottom-[20%] w-[40%] lg:w-[15%] 2xl:w-[12%]"
           style={{ zIndex: 1 }}
         />
       </div>
-      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[120px] pt-[70px] lg:pt-[100px] 2xl:pt-[200px] pb-[100px] sm:pb-[120px] lg:pb-[100px] 2xl:pb-[120px]">
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[50px]">
+      <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[120px] pt-[30px] lg:pt-[100px] 2xl:pt-[100px] pb-[100px] sm:pb-[120px] lg:pb-[100px] 2xl:pb-[120px] overflow-hidden">
+        <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-x-[50px] gap-y-[80px]">
           <div className="w-full lg:w-[50%] relative flex justify-center">
             <Image
               src={left}

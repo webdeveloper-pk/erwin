@@ -21,7 +21,7 @@ const DiyCredits3 = () => (
       </div>
     </div>
     <div className="w-full mt-[20px] 2xl:mt-[30px] flex flex-col lg:items-stretch lg:flex-row gap-[40px] 2xl:gap-[60px]">
-      <div className="block lg:hidden w-full pl-[30px] 2xl:pl-[60px]">
+      <div className="block lg:hidden w-full 2xl:pl-[60px]">
         <p className="uppercase font-semibold text-[22px] md:text-[26px] lg:text-[28px] 2xl:text-[32px]">
           Mail it for you
         </p>
@@ -33,9 +33,9 @@ const DiyCredits3 = () => (
           className="w-[80%] md:w-[60%] lg:w-[100%] 2xl:w-[100%]"
         />
       </div>
-      <div className="block lg:hidden w-full pl-[30px] 2xl:pl-[60px]">
+      <div className="block lg:hidden w-full pl-[0px] 2xl:pl-[60px]">
         <p className="uppercase font-semibold text-[22px] md:text-[26px] lg:text-[28px] 2xl:text-[32px]">
-          Monitor your progress with a streamlined dashboard.
+          Monitor your progress with a streamlined dashboard
         </p>
       </div>
       <div className="w-full lg:w-[60%] flex justify-center">
@@ -60,7 +60,7 @@ const DiyCredits3 = () => (
       </div>
     </div>
     <div className="w-full mt-[20px] 2xl:mt-[30px] flex flex-col lg:items-stretch lg:flex-row gap-[40px] 2xl:gap-[60px]">
-      <div className="block lg:hidden w-full pl-[30px] 2xl:pl-[60px]">
+      <div className="block lg:hidden w-full 2xl:pl-[60px]">
         <p className="uppercase font-semibold text-[22px] md:text-[26px] lg:text-[28px] 2xl:text-[32px]">
           One click import and dispute for easy credit repair.
         </p>
@@ -72,7 +72,7 @@ const DiyCredits3 = () => (
           className="w-[100%] md:w-[80%] lg:w-[100%] 2xl:w-[100%]"
         />
       </div>
-      <div className="block lg:hidden w-full pl-[30px] 2xl:pl-[60px]">
+      <div className="block lg:hidden w-full 2xl:pl-[60px]">
         <p className="uppercase font-semibold text-[22px] md:text-[26px] lg:text-[28px] 2xl:text-[32px]">
           Recommends the best dispute reasons
         </p>

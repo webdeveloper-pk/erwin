@@ -3,7 +3,10 @@ import bot from "@/public/ai-credit-guy-bot.png";
 
 const AiCreditGuy = () => {
   return (
-    <div className="bg-gradient pt-[70px] lg:pt-[100px] 2xl:pt-[200px] pb-[50px] lg:pb-[70px] 2xl:pb-[100px]">
+    <div
+      id="credits"
+      className="bg-gradient pt-[70px] lg:pt-[100px] 2xl:pt-[200px] pb-[50px] lg:pb-[70px] 2xl:pb-[100px]"
+    >
       <div className="relative">
         <div className="px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px]">
           <h1 className="w-[100%] uppercase font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px] text-center">
