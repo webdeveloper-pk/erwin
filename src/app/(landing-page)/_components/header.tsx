@@ -98,7 +98,7 @@ const Header = () => {
                 <li
                   data-aos="fade-down"
                   data-aos-easing="ease-in-sine"
-                  data-aos-duration="900"
+                  data-aos-duration="700"
                 >
                   <div className="btn-test from-bottom">
                     <a
@@ -151,10 +151,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <a
-              href="https://aicreditguy.com/signup.aspx/signup.aspx"
-              target="_blank"
-            >
+            <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
               <button
                 className={`whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
               >
@@ -267,10 +264,7 @@ const Header = () => {
                 // data-aos-easing="ease-in-sine"
                 // data-aos-duration="1900"
               >
-                <a
-                  href="https://aicreditguy.com/signup.aspx/signup.aspx"
-                  target="_blank"
-                >
+                <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                   <button
                     className={`whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
                   >

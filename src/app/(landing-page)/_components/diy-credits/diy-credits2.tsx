@@ -1,6 +1,11 @@
 import Image from "next/image";
 import left from "@/public/diy-credits2-left.png";
 import bot from "@/public/diy-credits2-left-bot.png";
+import left1 from "@/public/diy-credits2-left1.png";
+import right1 from "@/public/diy-credits2-right1.png";
+import right2 from "@/public/diy-credits2-right2.png";
+import right3 from "@/public/diy-credits2-right3.png";
+import right4 from "@/public/diy-credits2-right4.png";
 
 const DiyCredits2 = () => {
   return (

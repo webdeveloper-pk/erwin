@@ -67,10 +67,7 @@ const AiCreditGuy = () => {
               </table>
             </div>
             <div className="flex justify-center">
-              <a
-                href="https://aicreditguy.com/signup.aspx/signup.aspx"
-                target="_blank"
-              >
+              <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
                   className={`mt-[20px] lg:mt-[30px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
                 >
