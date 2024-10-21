@@ -106,7 +106,7 @@ const Header = () => {
                       href="#working"
                       className="text-black hover:text-white text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
                     >
-                      How it wokrs
+                      How it works
                     </a>
                   </div>
                 </li>
@@ -221,7 +221,7 @@ const Header = () => {
                         href="#working"
                         className="text-black hover:text-white text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
                       >
-                        How it wokrs
+                        How it works
                       </a>
                     </div>
                   </li>

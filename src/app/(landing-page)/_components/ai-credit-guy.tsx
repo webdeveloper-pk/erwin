@@ -18,27 +18,27 @@ const AiCreditGuy = () => {
             <Image
               src={bot}
               alt="bot"
-              className="w-[40%] sm:w-[30%] md:w-[25%] lg:w-[25%] xl:w-[20%] absolute right-[10px] -top-[20px] sm:right-[0px] sm:-top-[20px] md:right-0 md:-top-[50px] lg:right-0 lg:-top-[100px] xl:right-0  xl:-top-[80px] 2xl:-top-[150px]"
+              className="w-[30%] sm:w-[25%] md:w-[25%] lg:w-[25%] xl:w-[20%] absolute right-[10px] -top-[20px] sm:right-[0px] sm:-top-[20px] md:right-0 md:-top-[50px] lg:right-0 lg:-top-[100px] xl:right-0  xl:-top-[80px] 2xl:-top-[150px]"
             />
           </div>
           <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[70px] xl:px-[100px] 2xl:px-[160px] overflow-hidden">
-            <div className="overflow-x-auto overflow-y-hidden">
-              <table className="min-w-full table-auto">
+            <div className="overflow-y-hidden">
+              <table className="w-full">
                 <thead>
-                  <tr className="bg-[#D6F0FF] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]">
-                    <th className="px-4 py-4 2xl:py-6 text-left font-normal">
+                  <tr className="bg-[#D6F0FF] border border-[#00000054] uppercase text-[10px] md:text-[15px] lg:text-[18px] 2xl:text-[20px]">
+                    <th className="pl-1.5 pr-1 md:px-4 py-2 md:py-4 2xl:py-6 text-left font-normal">
                       FEES
                     </th>
-                    <th className="px-4 py-4 2xl:py-6 text-left font-normal">
+                    <th className="px-1 md:px-4 py-2 md:py-4 2xl:py-6 text-left font-normal">
                       SETUP FEE
                     </th>
-                    <th className="px-4 py-4 2xl:py-6 text-left font-normal">
+                    <th className="px-1 md:px-4 py-2 md:py-4 2xl:py-6 text-left font-normal">
                       MONTHLY FEE
                     </th>
-                    <th className="px-4 py-4 2xl:py-6 text-left font-normal">
+                    <th className="px-1 md:px-4 py-2 md:py-4 2xl:py-6 text-left font-normal">
                       Credit Monitoring
                     </th>
-                    <th className="px-4 py-4 2xl:py-6 text-left font-normal">
+                    <th className="px-1 md:px-4 py-2 md:py-4 2xl:py-6 text-left font-normal">
                       Average Monthly Cost
                     </th>
                   </tr>
@@ -48,35 +48,53 @@ const AiCreditGuy = () => {
                     <td className="py-1"></td>
                   </tr>
                   <tr
-                    className="bg-[#C6D1FE] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]"
+                    className="bg-[#C6D1FE] border border-[#00000054] uppercase text-[10px] md:text-[15px] lg:text-[18px] 2xl:text-[20px]"
                     data-aos="fade-up"
                     data-aos-offset="100"
                     data-aos-duration="900"
                     data-aos-easing="ease-in-sine"
                   >
-                    <td className="px-4 py-4 2xl:py-6">AI CREDIT GUY</td>
-                    <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
-                    <td className="px-4 py-4 2xl:py-6">$0 FOREVER</td>
-                    <td className="px-4 py-4 2xl:py-6">$29.95 MONTHLY</td>
-                    <td className="px-4 py-4 2xl:py-6">R$29.95</td>
+                    <td className="pl-1.5 pr-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      AI CREDIT GUY
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      $0 FOREVER
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      $0 FOREVER
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      $29.95 MONTHLY
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      R$29.95
+                    </td>
                   </tr>
                   <tr>
                     <td className="py-1"></td>
                   </tr>
                   <tr
-                    className="bg-[#FFFFFF] border border-[#00000054] uppercase text-[15px] md:text-[16px] lg:text-[18px] 2xl:text-[20px]"
+                    className="bg-[#FFFFFF] border border-[#00000054] uppercase text-[10px] md:text-[15px] lg:text-[18px] 2xl:text-[20px]"
                     data-aos="fade-up"
                     data-aos-offset="100"
                     data-aos-duration="1100"
                     data-aos-easing="ease-in-sine"
                   >
-                    <td className="px-4 py-4 2xl:py-6">
+                    <td className="pl-1.5 pr-1 md:px-4 py-2 md:py-4 2xl:py-6">
                       Traditional Credit Repair
                     </td>
-                    <td className="px-4 py-4 2xl:py-6">Up to $399 </td>
-                    <td className="px-4 py-4 2xl:py-6">UPTO $199</td>
-                    <td className="px-4 py-4 2xl:py-6">$25-$40 ( Monthly )</td>
-                    <td className="px-4 py-4 2xl:py-6">$250+</td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      Up to $399{" "}
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      UPTO $199
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      $25-$40 ( Monthly )
+                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
+                      $250+
+                    </td>
                   </tr>
                 </tbody>
               </table>
