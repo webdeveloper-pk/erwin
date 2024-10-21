@@ -78,11 +78,12 @@ const Hero = () => {
             <div className="relative">
               <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
-                  className={`mt-[20px] lg:mt-[30px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                  className={`relative mt-[20px] lg:mt-[30px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
                   data-aos="fade-up"
                   data-aos-offset="100"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-sine"
+                  style={{ zIndex: 2 }}
                 >
                   <span className="custom-header-btn-inner">GET STARTED</span>
                 </button>
