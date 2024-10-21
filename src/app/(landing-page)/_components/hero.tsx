@@ -22,37 +22,68 @@ const Hero = () => {
                   className="w-[50px] lg:w-[70px] 2xl:w-[100px] h-auto"
                 />
               </div>
-              <Image
-                src={meter1}
-                alt="meter1"
-                className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
-              />
-              <Image
-                src={meter2}
-                alt="meter2"
-                className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
-              />
-              <Image
-                src={meter3}
-                alt="meter3"
-                className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
-              />
+              <div
+                className="flex items-start gap-4"
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-duration="700"
+                data-aos-delay="100"
+                data-aos-easing="ease-in-sine"
+              >
+                <Image
+                  src={meter1}
+                  alt="meter1"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+                <Image
+                  src={meter2}
+                  alt="meter2"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+                <Image
+                  src={meter3}
+                  alt="meter3"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+              </div>
             </div>
-            <p className="mt-3 font-medium text-[14px] lg:text-[15px]">
+            <p
+              className="mt-3 font-medium text-[14px] lg:text-[15px]"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="900"
+              data-aos-easing="ease-in-sine"
+            >
               Stop Spending Your Hard Earned Money on Credit Repair!
             </p>
-            <h1 className="w-[100%] md:w-[70%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] uppercase mt-2 font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px]">
+            <h1
+              className="w-[100%] md:w-[70%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] uppercase mt-2 font-semibold text-[26px] md:text-[28px] lg:text-[28px] xl:text-[32px] 2xl:text-[38px]"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="1100"
+              data-aos-easing="ease-in-sine"
+            >
               Repair Your{" "}
               <span className="font-bold text-[#45408C]">Credit</span> Start
               Now For Free
             </h1>
-            <p className="mt-3 font-medium text-[15px] md:text-[15px] lg:text-[16px] 2xl:text-[20px] uppercase">
+            <p
+              className="mt-3 font-medium text-[15px] md:text-[15px] lg:text-[16px] 2xl:text-[20px] uppercase"
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="1300"
+              data-aos-easing="ease-in-sine"
+            >
               AI DRIVEN TOOLS TO GET YOUR CREDIT BACK ON TRACK
             </p>
             <div className="relative">
               <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
                   className={`mt-[20px] lg:mt-[30px] whitespace-nowrap py-[12px] px-[20px] lg:py-[12px] lg:px-[16px] xl:py-[16px] xl:px-[22px] custom-header-btn bg-transparent flex justify-center items-center rounded-[20px] lg:rounded-[24px] cursor-pointer font-semibold text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-white hover:text-black`}
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-duration="1500"
+                  data-aos-easing="ease-in-sine"
                 >
                   <span className="custom-header-btn-inner">GET STARTED</span>
                 </button>
@@ -75,7 +106,13 @@ const Hero = () => {
               />
             </div>
             <div className="bg-clouds">
-              <div className="pr-[20px] md:pr-[50px] lg:pr-[50px] xl:pr-[90px] 2xl:pr-[120px]">
+              <div
+                className="pr-[20px] md:pr-[50px] lg:pr-[50px] xl:pr-[90px] 2xl:pr-[120px]"
+                data-aos="fade-left"
+                data-aos-offset="100"
+                data-aos-duration="1500"
+                data-aos-easing="ease-in-sine"
+              >
                 <Image
                   src={hero}
                   alt="hero"
