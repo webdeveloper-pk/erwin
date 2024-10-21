@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Erwin",
+  title: "AI Credit Guy",
   description: "Repair Your Credit",
 };
 
