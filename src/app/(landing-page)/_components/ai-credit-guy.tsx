@@ -67,7 +67,7 @@ const AiCreditGuy = () => {
                       $29.95 MONTHLY
                     </td>
                     <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
-                      R$29.95
+                      $29.95
                     </td>
                   </tr>
                   <tr>
@@ -87,14 +87,12 @@ const AiCreditGuy = () => {
                       Up to $399{" "}
                     </td>
                     <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
-                      UPTO $199
+                      UP TO $199
                     </td>
                     <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
-                      $25-$40 ( Monthly )
+                      $25-$40 Monthly
                     </td>
-                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">
-                      $250+
-                    </td>
+                    <td className="px-1 md:px-4 py-2 md:py-4 2xl:py-6">$250</td>
                   </tr>
                 </tbody>
               </table>

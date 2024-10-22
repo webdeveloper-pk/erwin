@@ -11,7 +11,7 @@ import dollar from "@/public/hero-dollar.png";
 const Hero = () => {
   return (
     <div className="mt-[80px] md:mt-[90px] xl:mt-[100px] 2xl:mt-[120px] overflow-hidden">
-      <div className="w-full homepage-container mx-auto text-black pl-[20px] md:pl-[50px] lg:pl-[50px] xl:pl-[90px] 2xl:pl-[120px] overflow-hidden py-[70px] 2xl:py-[50px]">
+      <div className="w-full homepage-container mx-auto text-black pr-[20px] md:pr-[50px] lg:pr-0 pl-[20px] md:pl-[50px] lg:pl-[50px] xl:pl-[90px] 2xl:pl-[120px] overflow-hidden py-[70px] 2xl:py-[50px]">
         <div className="flex flex-col lg:flex-row gap-y-20 gap-x-8">
           <div className="w-[100%] lg:w-[45%]">
             <div className="flex items-start gap-4 relative">
@@ -88,7 +88,7 @@ const Hero = () => {
                   <span className="custom-header-btn-inner">GET STARTED</span>
                 </button>
               </a>
-              <div className="absolute -left-[8%] top-[30%] sm:-left-[3%] sm:top-[40%] md:top-[30%] md:-left-[7%] lg:-left-[12%] lg:top-[5%] xl:-left-[17%] xl:top-[10%] 2xl:-left-[15%] 2xl:-top-[0%]">
+              <div className="absolute -left-[8%] top-[40%] sm:-left-[3%] sm:top-[40%] md:top-[30%] md:-left-[7%] lg:-left-[12%] lg:top-[5%] xl:-left-[17%] xl:top-[10%] 2xl:-left-[15%] 2xl:-top-[0%]">
                 <Image
                   src={kite}
                   alt="kite"
