@@ -117,7 +117,7 @@ const DiyPlatform = () => {
                 data-aos-duration="1100"
                 data-aos-easing="ease-in-sine"
               >
-                Just Pay for crdit monitoring. We cover the rest.
+                Just Pay for credit monitoring. We cover the rest.
               </p>
               <a href="https://aicreditguy.com/signup.aspx/signup.aspx">
                 <button
