@@ -1,5 +1,5 @@
 import Image from "next/image";
-import left from "@/public/diy-platform-left.tsx.png";
+import left from "@/public/diy-platform-left.png";
 import bot from "@/public/diy-credits2-left-bot.png";
 import meter1 from "@/public/diy-platform.meter.png";
 import leftObj1 from "@/public/diy-platform-left-obj-1.png";
