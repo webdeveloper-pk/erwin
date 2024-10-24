@@ -105,7 +105,7 @@ const DiyCredits3 = () => (
         >
           <div
             className="absolute -right-[20px] -bottom-[15px] md:-bottom-[15px] 2xl:-bottom-[15px] md:-right-[20px] 2xl:-right-[50px]"
-            style={{ zIndex: 1 }}
+            style={{ zIndex: 4 }}
           >
             <Image
               src={bot}
