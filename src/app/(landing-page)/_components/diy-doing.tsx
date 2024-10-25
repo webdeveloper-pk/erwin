@@ -1,6 +1,6 @@
 import Image from "next/image";
 import left from "@/public/diy-doing-left.png";
-import bot from "@/public/diy-credits2-left-bot.png";
+import bot from "@/public/bot-left.png";
 import lines from "@/public/diy-doing-lines.png";
 import right1 from "@/public/diy-doing-right1.png";
 import right2 from "@/public/diy-doing-right2.png";

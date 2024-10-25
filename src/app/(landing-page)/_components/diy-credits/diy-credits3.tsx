@@ -3,7 +3,7 @@ import left1 from "@/public/diy-credits-3-left1.png";
 import right1 from "@/public/diy-credits-3-right1.png";
 import left2 from "@/public/diy-credits-3-left2.png";
 import right2 from "@/public/diy-credits-3-right2.png";
-import bot from "@/public/diy-credits-3-bot.png";
+import bot from "@/public/bot-right.png";
 
 const DiyCredits3 = () => (
   <div className="mx-auto homepage-container px-[20px] md:px-[50px] lg:px-[50px] xl:px-[80px] 2xl:px-[110px] pb-[100px] lg:pb-[120px] 2xl:pb-[180px] overflow-hidden">

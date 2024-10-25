@@ -1,6 +1,6 @@
 import Image from "next/image";
 import left from "@/public/diy-platform-left.png";
-import bot from "@/public/diy-credits2-left-bot.png";
+import bot from "@/public/bot-left.png";
 import meter1 from "@/public/diy-platform.meter.png";
 import leftObj1 from "@/public/diy-platform-left-obj-1.png";
 import leftObj2 from "@/public/diy-platform-left-obj-2.png";
@@ -45,8 +45,8 @@ const DiyPlatform = () => {
             <Image
               src={leftObj1}
               alt="leftObj1"
-              className="absolute left-[0px] top-[0px] lg:left-[-20px] lg:top-[0px] 2xl:left-[-10px] 2xl:top-[0px] w-[70px] h-[50px] md:w-[80px] md:h-[60px] lg:w-[90px] lg:h-[75px] 2xl:w-[100px] 2xl:h-[85px]"
-              style={{ zIndex: 1 }}
+              className="absolute left-[0px] top-[0px] lg:left-[-20px] lg:top-[0px] 2xl:left-[-10px] 2xl:top-[0px] w-[70px] h-[50px] md:w-[80px] md:h-[60px] lg:w-[90px] lg:h-[75px] 2xl:w-[100px] 2xl:h-[100px]"
+              style={{ zIndex: -1 }}
             />
           </div>
           <div className="w-full lg:w-[50%] relative">

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logo from "@/public/bot-left.png";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);

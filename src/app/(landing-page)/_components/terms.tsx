@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bot from "@/public/terms-bot.png";
+import bot from "@/public/bot-left.png";
 
 const Terms = () => {
   return (
