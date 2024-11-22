@@ -16,7 +16,11 @@ const Hero = () => {
           <div className="w-[100%] lg:w-[45%]">
             <div className="flex items-start gap-4 relative">
               <div className="absolute left-[0%] -top-[100%] md:-top-[60%] md:-left-[5%] lg:-left-[10%] lg:-top-[70%] xl:-left-[14%] xl:-top-[10%] 2xl:-left-[13%] 2xl:-top-[10%]">
-                <Image src={rocket} alt="rocket" className="w-[50px] lg:w-[70px] 2xl:w-[100px] h-auto" />
+                <Image
+                  src={rocket}
+                  alt="rocket"
+                  className="w-[50px] lg:w-[70px] 2xl:w-[100px] h-auto"
+                />
               </div>
               <div
                 className="flex items-start gap-4"
@@ -25,9 +29,21 @@ const Hero = () => {
                 data-aos-duration="700"
                 data-aos-easing="ease-in-sine"
               >
-                <Image src={meter1} alt="meter1" className="w-[90px] lg:w-[100px] 2xl:w-[150px]" />
-                <Image src={meter2} alt="meter2" className="w-[90px] lg:w-[100px] 2xl:w-[150px]" />
-                <Image src={meter3} alt="meter3" className="w-[90px] lg:w-[100px] 2xl:w-[150px]" />
+                <Image
+                  src={meter1}
+                  alt="meter1"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+                <Image
+                  src={meter2}
+                  alt="meter2"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
+                <Image
+                  src={meter3}
+                  alt="meter3"
+                  className="w-[90px] lg:w-[100px] 2xl:w-[150px]"
+                />
               </div>
             </div>
             <p
@@ -46,7 +62,9 @@ const Hero = () => {
               data-aos-duration="1100"
               data-aos-easing="ease-in-sine"
             >
-              Repair Your <span className="font-bold text-[#45408C]">Credit</span> Start Now For Free
+              Repair Your{" "}
+              <span className="font-bold text-[#45408C]">Credit</span> Start
+              Now For Free
             </h1>
             <p
               className="mt-3 font-medium text-[15px] md:text-[15px] lg:text-[16px] 2xl:text-[20px] uppercase"
@@ -70,18 +88,28 @@ const Hero = () => {
                   data-aos-easing="ease-in-sine"
                   style={{ zIndex: 2 }}
                 >
+                  <span className="custom-header-btn-inner uppercase">
+                    Book an appointment
+                  </span>
                   {/* <span className="custom-header-btn-inner">GET STARTED</span> */}
-                  <span className="custom-header-btn-inner uppercase">Book an appointment</span>
                 </button>
               </a>
               <div className="absolute -left-[8%] top-[40%] sm:-left-[3%] sm:top-[40%] md:top-[30%] md:-left-[7%] lg:-left-[12%] lg:top-[5%] xl:-left-[17%] xl:top-[10%] 2xl:-left-[15%] 2xl:-top-[0%]">
-                <Image src={kite} alt="kite" className="w-[90px] md:w-[120px] lg:w-[170px] 2xl:w-[250px] h-auto" />
+                <Image
+                  src={kite}
+                  alt="kite"
+                  className="w-[90px] md:w-[120px] lg:w-[170px] 2xl:w-[250px] h-auto"
+                />
               </div>
             </div>
           </div>
           <div className="w-[100%] lg:w-[55%] relative">
             <div className="absolute -left-[2%] lg:-left-[3%] top-[3%] md:top-[12%] lg:-top-[5%] 2xl:top-[5%]">
-              <Image src={dollar} alt="rocket" className="w-[70px] lg:w-[100px] 2xl:w-[120px] h-auto" />
+              <Image
+                src={dollar}
+                alt="rocket"
+                className="w-[70px] lg:w-[100px] 2xl:w-[120px] h-auto"
+              />
             </div>
             <div className="bg-clouds">
               <div
@@ -91,7 +119,11 @@ const Hero = () => {
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-sine"
               >
-                <Image src={hero} alt="hero" className="w-[90%] sm:w-[70%] lg:w-[80%] 2xl:w-[90%] h-auto mx-auto" />
+                <Image
+                  src={hero}
+                  alt="hero"
+                  className="w-[90%] sm:w-[70%] lg:w-[80%] 2xl:w-[90%] h-auto mx-auto"
+                />
               </div>
             </div>
           </div>
