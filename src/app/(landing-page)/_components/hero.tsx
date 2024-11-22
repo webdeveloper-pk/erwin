@@ -88,10 +88,10 @@ const Hero = () => {
                   data-aos-easing="ease-in-sine"
                   style={{ zIndex: 2 }}
                 >
+                  {/* <span className="custom-header-btn-inner">GET STARTED</span> */}
                   <span className="custom-header-btn-inner uppercase">
                     Book an appointment
                   </span>
-                  {/* <span className="custom-header-btn-inner">GET STARTED</span> */}
                 </button>
               </a>
               <div className="absolute -left-[8%] top-[40%] sm:-left-[3%] sm:top-[40%] md:top-[30%] md:-left-[7%] lg:-left-[12%] lg:top-[5%] xl:-left-[17%] xl:top-[10%] 2xl:-left-[15%] 2xl:-top-[0%]">
