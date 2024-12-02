@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 
 import meter1 from "@/public/hero-meter-1.png";
 import meter2 from "@/public/hero-meter-2.png";
@@ -128,6 +129,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        {/* GHL Chatbot Script */}
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="67477c93e34bcfbc6a6dcb39"
+          strategy="lazyOnload" // Load the script only when the page is idle
+        />
       </div>
     </div>
   );
